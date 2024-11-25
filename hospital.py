@@ -81,4 +81,4 @@ def main(page: ft.Page):
     # Agregar contenido a la página
     page.add(main_content)
 
-ft.app(target=main)
+ft.app(target=main, view=ft.AppView.WEB_BROWSER)

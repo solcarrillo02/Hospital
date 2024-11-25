@@ -104,4 +104,4 @@ def main(page: ft.Page):
 
     page.add(app_bar, main_content)
 
-ft.app(target=main)
+ft.app(target=main, view=ft.AppView.WEB_BROWSER)

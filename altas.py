@@ -258,4 +258,4 @@ def main(page: ft.Page):
     # Inicializar el dropdown de pacientes
     update_patient_dropdown()
 
-ft.app(target=main)
+ft.app(target=main, view=ft.AppView.WEB_BROWSER)
